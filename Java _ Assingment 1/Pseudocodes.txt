@@ -1,0 +1,75 @@
+1. Input a year and find whether it is a leap year or not.
+
+
+Start 
+Input YEAR
+if (year % 4 && year % 100)
+	if (year % 400)
+		output " Leap year "
+	output "Not Leap year"
+Stop. 
+
+
+2. Take two numbers and print the sum of both.
+
+
+Start 
+Input a, b
+c = a + b
+Output c
+Stop
+
+
+3. Take a number as input and print the multiplication table for it.
+
+
+Start
+Input num
+i=0
+while  i<=10
+	Output c = i * num
+	i = i + 1
+End while
+Stop
+
+
+4. Take 2 numbers as inputs and find their HCF and LCM.
+
+
+Start
+Input x, y
+a = x, b = y
+while (b!=0)
+	t = b
+	b = a % b
+	a = t
+End while
+gcd = a
+lcm = (x * y)/gcd
+Output gcd, lcm
+Stop
+
+5. Keep taking numbers as inputs till the user enters ‘x’, after that print sum of all.
+
+
+Start
+sum = 0
+Input a
+while (a!=x)
+	sum = sum + a
+End while
+Output sum
+Stop
+
+
+
+
+
+
+
+
+
+
+
+
+
